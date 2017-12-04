@@ -2,7 +2,7 @@
 import sys
 
 #end= in the print statements helps add on the '! Welcome' at the end of the Hello phrase. 
-
+name = input('What is your name?')
 
 print('Hello,', end='')
 sys.stdout.write(sys.argv[1])
